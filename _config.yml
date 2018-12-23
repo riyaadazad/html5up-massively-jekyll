@@ -1,0 +1,22 @@
+# Site <title></title>
+title: Massively by HTML5 UP
+name: Untitled
+# dribbble_username: null
+# facebook_username: null
+# flickr_username: null
+github_username: riyaadazad
+# instagram_username: null
+# linkedin_username: null
+# pinterest_username: null
+# twitter_username: null
+youtube_username: riyaadazad21
+# youtube_channel: null
+telegram_username: null
+microdotblog_username: null
+# googleplus_username: null
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
