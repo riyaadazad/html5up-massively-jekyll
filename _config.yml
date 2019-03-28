@@ -14,6 +14,10 @@ city: Any City
 state-province: TX
 postal-code: 09876
 telephone: (555) 555-5555
+current-year: 2019
+page-1: # set with nav bar to say when to show class alert or not
+page-2: #
+page-3: #
 show_excerpts: false # set to true to show excerpts on the homepage
 # generate social links in footer
 social_links:
