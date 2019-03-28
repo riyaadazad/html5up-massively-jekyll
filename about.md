@@ -1,6 +1,5 @@
 ---
 title: About
-title-2: About
 layout: default
 description: This is a very long description.
 date: March 28, 2019
