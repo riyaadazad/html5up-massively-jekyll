@@ -1,10 +1,9 @@
 ---
-title: Page
+title: About
 layout: default
 description: This is a very long description.
-date: 2019-03-28
-long-date: March 28, 2019
-image-name: #
+date: March 28, 2019
+image-url: #
 image-alt: #
 ---
 
