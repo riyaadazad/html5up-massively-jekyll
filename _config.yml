@@ -1,4 +1,5 @@
 title: Massively
+brand: Massively
 author: GitHub User
 email: your-email@domain.com
 description: > # this means to ignore newlines until "show_exerpts:"
@@ -8,6 +9,11 @@ description: > # this means to ignore newlines until "show_exerpts:"
 baseurl: "/html5up-massively-jekyll" # the subpath of your site, e.g. /blog
 aboutme: We are an XYZ company dedicated to satisfying our customers.
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+street-address: 1234 Somewhere Road
+city: Any City
+state-province: TX
+postal-code: 09876
+telephone: (555) 555-5555
 show_excerpts: false # set to true to show excerpts on the homepage
 # generate social links in footer
 social_links:

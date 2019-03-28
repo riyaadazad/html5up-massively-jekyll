@@ -3,6 +3,8 @@ title: Home
 layout: default
 description: This is a very long description.
 date: 2018-12-23
+image-name: #
+image-alt: #
 ---
 
 Content is written in [Markdown](https://learnxinyminutes.com/docs/markdown/). Plain text format allows you to focus on your **content**.

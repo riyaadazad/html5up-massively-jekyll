@@ -23,16 +23,16 @@
     <section class="split contact">
         <section class="alt">
             <h3>Address</h3>
-            <p>1234 Somewhere Road #87257<br />
-                Nashville, TN 00000-0000</p>
+            <p>{{ site.street-address }}<br />
+                {{ site.city }}, {{ site.state-province }} {{ site.postal-code }}</p>
         </section>
         <section>
             <h3>Phone</h3>
-            <p><a href="#">(000) 000-0000</a></p>
+            <p><a href="#">{{ site.telephone }}</a></p>
         </section>
         <section>
             <h3>Email</h3>
-            <p><a href="#">info@untitled.tld</a></p>
+            <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
         </section>
         <section>
             <h3>Social</h3>
@@ -46,7 +46,8 @@
 <!-- Copyright -->
 <div id="copyright">
     <ul>
-        <li>&copy; Untitled</li>
-        <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+        <li>&copy; {{ site.author }}</li>
+        <li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
+        <li>Jekyll-ized: <a href="https://github.com/riyaadazad" target="_blank">Riyaad Azad</a></li>
     </ul>
 </div>
