@@ -7,4 +7,4 @@ show-date: false
 image-url: #
 image-alt: #
 ---
-{% include blog.html %}
+Hello

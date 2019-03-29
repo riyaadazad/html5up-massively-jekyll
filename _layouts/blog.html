@@ -38,10 +38,10 @@
                     <p>{{ page.description }}</p>
                 </header>
                 <div class="image main"><img src="{{ page.image-url }}" alt="{{ page.image-alt }}" /></div>
+                {{ content }}
             </section>
-
-            {{ content }}
         </div>
+        {% include featured-all-posts.html %}
 
         <!-- Footer -->
         {% include footer.html %}
