@@ -36,13 +36,17 @@
 
         <!-- Main -->
         <div id="main">
-
-            <!-- Featured Post -->
-            {% include featured-post.html %}
-
-            <!-- Posts -->
-            {% include recent-posts.html %}
-
+            <section>
+                {{ content }}
+            </section>
+            <section>
+                <!-- Featured Post -->
+                {% include featured-post.html %}
+            </section>
+            <section>
+                <!-- Posts -->
+                {% include recent-posts.html %}
+            </section>
         </div>
 
         <!-- Footer -->
