@@ -8,4 +8,4 @@ image-url: #
 image-alt: #
 ---
 
-This is content. Hahaha.
+This is example content.
