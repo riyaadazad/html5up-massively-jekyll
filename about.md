@@ -3,6 +3,7 @@ title: About
 layout: default
 description: This is a very long description.
 date: March 28, 2019
+show-date: false
 image-url: #
 image-alt: #
 ---
