@@ -1,5 +1,5 @@
 ---
-title: Page
+title: Home
 layout: default
 date: March 28, 2019
 description: This is a very long description.

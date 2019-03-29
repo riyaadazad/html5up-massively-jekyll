@@ -1,11 +1,11 @@
 <nav id="nav">
     <ul class="links">
-        {% if page.name == /index.md %}
+        {% if page.title == "Home" %}
         <li class="active"><a href="{{ site.baseurl }}/index">Home</a></li>
         {% else %}
         <li><a href="{{ site.baseurl }}/index">Home</a></li>
         {% endif %}
-        {% if page.name == /about.md %}
+        {% if page.title == "About" %}
         <li class="active"><a href="{{ site.baseurl }}/about">About</a></li>
         {% else %}
         <li><a href="{{ site.baseurl }}/about">About</a></li>
