@@ -11,6 +11,12 @@
         {% else %}
         <li><a href="{{ site.baseurl }}/about">About</a></li>
         {% endif %}
+
+        {% if page.title == "Blog" %}
+        <li class="active"><a href="{{ site.baseurl }}/blog">Blog</a></li>
+        {% else %}
+        <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+        {% endif %}
     </ul>
     {% include social.html %}
 </nav>

@@ -1,0 +1,15 @@
+<section class="posts">
+    {% for post in site.posts %}
+    <article>
+        <header>
+            <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        </header>
+        <a href="{{ page.image-url }}" class="image fit"><img src="{{ page.image-url }}" alt="{{ page.image-alt }}" /></a>
+        <p>{{ post.description }}</p>
+        <ul class="actions special">
+            <li><a href="{{ site.baseurl }}{{ post.url }}" class="button">See More</a></li>
+        </ul>
+    </article>
+    {% endfor %}
+</section>
