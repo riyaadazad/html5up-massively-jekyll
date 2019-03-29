@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: default
+layout: home
 date: March 28, 2019
 show-date: true
 description: This is a very long description.
