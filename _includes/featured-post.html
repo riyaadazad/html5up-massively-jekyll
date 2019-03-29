@@ -1,0 +1,13 @@
+{% for post in site.posts limit:1 %}
+<article class="post featured">
+    <header class="major">
+        <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.description }}</p>
+    </header>
+    <a href="{{ page.image-url }}" class="image main"><img src="{{ page.image-url }}" alt="{{ page.image-alt }}" /></a>
+    <ul class="actions special">
+        <li><a href="{{ site.baseurl }}{{ post.url }}" class="button large">See More</a></li>
+    </ul>
+</article>
+{% endfor %}

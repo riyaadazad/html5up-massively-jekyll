@@ -1,8 +1,6 @@
 ---
 title: Home
 layout: home
-date: March 28, 2019
-show-date: true
 description: This is a very long description.
 image-url: #
 image-alt: #

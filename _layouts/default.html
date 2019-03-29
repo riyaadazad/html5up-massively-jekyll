@@ -32,7 +32,7 @@
             <section class="post">
                 <header class="major">
                     {% if page.show-date == true %}
-                    <span class="date">{{ page.date }}</span>
+                    <span class="date">{{ page.date | date: "%b %-d, %Y" }}</span>
                     {% endif %}
                     <h1>{{ page.title }}</h1>
                     <p>{{ page.description }}</p>

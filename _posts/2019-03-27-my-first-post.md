@@ -1,7 +1,7 @@
 ---
 title: First Post
 layout: default
-date: March 28, 2019
+date: 2019-03-27
 show-date: true
 description: This is a very long description.
 image-url: #
